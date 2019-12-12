@@ -2,11 +2,17 @@
 
 
 
-
-
+var User1 = "X";
+var turnsTaken = 0;
+var gameEnd = false;
+function performLogic(buttonId, tileId){
+    console.log("howdy");
+ //   $(buttonId).hide();
+}
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+
 });
 
 $("#button2").click(function() {
