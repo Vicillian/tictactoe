@@ -5,9 +5,14 @@
 var User1 = "X";
 var turnsTaken = 0;
 var gameEnd = false;
+
+function playerturn(){
+if()
+}
+
 function performLogic(buttonId, tileId){
-    console.log("howdy");
- //   $(buttonId).hide();
+    $(buttonId).hide();
+    $(tileId).html(User1);
 }
 
 $("#button1").click(function() {
